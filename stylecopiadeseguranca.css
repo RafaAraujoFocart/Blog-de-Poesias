@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*==========RESET==========*/ /* Não percebi alteração*/
+* {
+    margin: 0px;                          
+    padding: 0;                        
+    font-size: 100%;
+    border:none;
+    outline: none;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {background: linear-gradient(to top, #412c0f, #FADCAD); margin: 15px;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+/*=======FIM RESET=======*/
+
+div#interface {background-color: #fff; padding: 0px;}
+
+/*==========MENU==========*/
+nav#menu {width: 100%; display: inline-block;}
+
+nav#menu ul { }
+
+nav#menu li {display: inline-block; padding: 15px; margin: -5px; background: linear-gradient(to bottom,#605F54,#FFFBD6); font-family: 'Milonga', cursive; font-size: bolder; color: #695743;}
+nav#menu h1 {display: none;}
+
+

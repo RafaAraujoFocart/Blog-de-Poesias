@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/*==========RESET==========*/
+* {
+    margin: 0;                          
+    padding: 0;                        
+    font-size: 100%;
+    border:none;
+    outline: none;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+
+a {
+    text-decoration: none;
+    color:#D2AE6D;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/*=======FIM RESET=======*/
+
+
+/*==========INTERFACE==========*/
+
+body{background: linear-gradient(to top, #412c0f, #FADCAD);
+    margin: 20px;background-image: url(_img/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+div#interface {
+    background-color: #fff;
+    padding: 0px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.text {
+    box-shadow: 2px 2px 5px #412c0f;
+    padding:2px 6px;
+    background: rgba(255, 255, 255, 40%);
+    font-weight: bold;}
+
+
+/*==========| FIM_SECTION |==========*/
+
+h3 {
+    font-size: 150%;
+    text-align: right;
+    text-decoration: underline;
+}
+
+/*==========MENU==========*/
+.menu {
+    margin-top: -3%;
+}
+
+.linkd {
+    color:#000;
+} /*Link das migalhas*/
+
+.menu h1 {
+    display: none;
+}
+
+.ulmenu {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, #7E2E2F, #A66462);
+    align-items:center;
+    padding: 2% 5% 0% 5%;
+    font-size: 19px;
+}/*aqui eu posiciono as li no browser*/ /*MODELO DE MENU MAIS SIMPLES E ATUAL QUE VI 2019*/
+
+/*Definir mesma altura e largura para os elementos*/
+
+.migalhas {display:none;}
+.migalhas_e {position: absolute; font-size:100%; left: 10%; bottom:70% }
+.migalhas_l {position: absolute; font-size:100%; left: 10%; bottom:70% }
+.migalhas_d {position: absolute; font-size:100%; left: 10%; bottom:70% }
+.migalhas_s {position: absolute; font-size:100%; left: 10%; bottom:70% }
+
+/*========FIM_MENU========*/
+
+
+/*==========| SECTION |==========*/
+
+.sessaoindex {
+    padding: 60px 30px;
+    background: url(_img/bgsessao2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F1ebce;
+    color:#7E2E2F;}
+
+.titulosessao {
+    font-size: 30px
+}
+
+p {
+    text-align: justify;
+    font-size: 17px;
+} /*16px tamanho padrão*/
+
+/*INICIO DO FOOTER*/
+
+.rodape {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    
+}
+
+/*FINAL DO FOOTER*/
+
+/*=====================================================================*/
+
+/*=======FIM_CONFIG_INTERFACE=======*/
+
+/*==| CATEGORIAS |==*/
+/*==| EPICO |==*/
+.sessaoepico {
+    padding: 30px;
+    background: url(_img/bgepico.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F1ebce;
+    color:#7E2E2F;
+}
+
+.sessaoepico .text {
+    background: rgba(255, 255, 255, 90%);
+}
+
+/*==| Dramatico |==*/
+.sessaodrama{
+    padding: 30px;
+    background: url(_img/bgdrama.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F1ebce;
+    color:#7E2E2F;
+}
+
+.sessaodrama .text {
+    background: rgba(255, 255, 255, 90%);
+}
+
+/*==| Lirico |==*/
+
+.sessaolirico {
+    padding: 30px;
+    background: url(_img/bglirico.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F1ebce;
+    color:#7E2E2F;
+}
+
+.sessaolirico .text {
+    background: rgba(255, 255, 255, 90%);
+}
+
+/*==| Soneto |==*/
+
+.sessaosoneto {
+    padding: 30px;
+    background: url(_img/bgsoneto.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F1ebce;
+    color:#7E2E2F;}
+
+.sessaosoneto .text {
+    background: rgba(255, 255, 255, 90%);
+}
+
+/*==| FIM_CATEGORIA |==*/
+
+
+
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {background: url(../_img/bg.jpg);font-family: sans-serif;}
+
+.card{box-shadow: 1px 1px 1px black; background-color:#fff; padding: 30px; border-radius: 5px;}
+.form { width: 400px; margin: auto/*centralizando*/; padding-top: 40px; }
+
+.cardtop {text-align:center;}
+.card-group {margin-bottom: 15px;}
+.card-group > label {width:100%; color: #000; display:block;}
+.card-group > input {border-radius: 5px; outline: 0; width: 95%; height: 25px; padding: 5px} /*outline: 0 tira a linha azul (quando clicka) de dentro do input quando selecionado o campo*/
+
+
+
+.card-group > button {
+    background-image: linear-gradient(to right, red, #ccc); width: 100%;
+    border-radius: 30px;
+    padding: 15px; color: #fff;
+    border: 0px;
+    outline: none;
+    box-shadow: 2px 2px 3px black;}
+
+.btn button:hover {background-image: linear-gradient(to right,#ccc, red);}
+
+.imglogin {
+border-radius:10px;
+width: 200px;
+box-shadow: 1px 1px 6px black;
+}
+.titulo {color:red; }

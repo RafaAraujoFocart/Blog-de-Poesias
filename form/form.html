@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,inicial=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+<title> Acesso do Escritor </title>
+<link rel="stylesheet" href="estiloform.css">
+</head>
+<body> 
+
+    <form class="form" action=""> <!--Os tamanhos e medidas serão definidos aqui-->
+        <div class="card"> <!--Aparencia e estilo foi definido aqui-->
+            <div class="cardtop"><!--essa div foi criada para configurar as informações da parte de cima da telinha do formulário-->
+            <img class="imglogin" src="../_img/cadeado.jpg"/> <!--colocar uma imagem, sobre acesso, eu acho-->
+            <h2 class="titulo">Acesso do Escritor</h2>
+            <p>Poste seu texto, ,ou eu farei uma area de administrador pra mim</p>
+            </div> 
+
+<div class="card-group">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Digite seu e-mail" required="true"/>
+</div>
+<!--Até agora, não foi addicionado uma forma de verificar se o email add é valido, só pede para colocar o @ e .-->
+
+<div class="card-group">
+    <label>Senha</label>
+    <input type="password" name="senha" placeholder="Digite sua senha" required="true"/>
+</div>
+
+<div class="card-group">
+    <label><input type="checkbox">Lembre-me</label>
+</div>
+
+<div class="btn card-group">
+    <button type="submit">Acessar</button>
+</div>
+
+        </div>
+    </form>
+</body>
+
+</html>
