@@ -86,10 +86,10 @@ h3 {
 /*Definir mesma altura e largura para os elementos*/
 
 .migalhas {display:none;}
-.migalhas_e {position: absolute; font-size:100%; left: 10%; bottom:70% }
-.migalhas_l {position: absolute; font-size:100%; left: 10%; bottom:70% }
-.migalhas_d {position: absolute; font-size:100%; left: 10%; bottom:70% }
-.migalhas_s {position: absolute; font-size:100%; left: 10%; bottom:70% }
+.migalhas_e {position: absolute; font-size:100%; left: 10%; bottom:80% }
+.migalhas_l {position: absolute; font-size:100%; left: 10%; bottom:80% }
+.migalhas_d {position: absolute; font-size:100%; left: 10%; bottom:80% }
+.migalhas_s {position: absolute; font-size:100%; left: 10%; bottom:80% }
 
 /*========FIM_MENU========*/
 
