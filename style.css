@@ -34,7 +34,7 @@ p {
 /*==========INTERFACE==========*/
 
 body{background: linear-gradient(to top, #412c0f, #FADCAD);
-    margin: 20px;background-image: url(_img/bg.jpg);
+    margin: 20px;background-image: url(img/bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
@@ -98,7 +98,7 @@ h3 {
 
 .sessaoindex {
     padding: 60px 30px;
-    background: url(_img/bgsessao2.jpg);
+    background: url(img/bgsessao2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F1ebce;
@@ -137,7 +137,7 @@ p {
 /*==| EPICO |==*/
 .sessaoepico {
     padding: 30px;
-    background: url(_img/bgepico.jpg);
+    background: url(img/bgepico.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F1ebce;
@@ -151,7 +151,7 @@ p {
 /*==| Dramatico |==*/
 .sessaodrama{
     padding: 30px;
-    background: url(_img/bgdrama.jpg);
+    background: url(img/bgdrama.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F1ebce;
@@ -166,7 +166,7 @@ p {
 
 .sessaolirico {
     padding: 30px;
-    background: url(_img/bglirico.jpg);
+    background: url(img/bglirico.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F1ebce;
@@ -181,7 +181,7 @@ p {
 
 .sessaosoneto {
     padding: 30px;
-    background: url(_img/bgsoneto.jpg);
+    background: url(img/bgsoneto.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #F1ebce;
