@@ -87,9 +87,9 @@ h3 {
 
 .migalhas {display:none;}
 .migalhas_e {position: relative; font-size:100%; top: 2px }
-.migalhas_l {position: absolute; font-size:100%; left: 10%; bottom:75% }
-.migalhas_d {position: absolute; font-size:100%; left: 10%; bottom:75% }
-.migalhas_s {position: absolute; font-size:100%; left: 10%; bottom:75% }
+.migalhas_l {position: relative; font-size:100%; top: 2px }
+.migalhas_d {position: relative; font-size:100%; top: 2px }
+.migalhas_s {position: relative; font-size:100%; top: 2px }
 
 /*========FIM_MENU========*/
 
