@@ -135,6 +135,15 @@ p {
 #txtarea {
     width: 100%;
 }
+#autor {
+    width: 320px;
+}
+#titulo{
+    width: 315px;
+}
+#inspi{
+    width: 285px;
+}
 /*FINAL AREA DE TEXTO*/
 /*=====================================================================*/
 
