@@ -14,6 +14,7 @@
 a {
     text-decoration: none;
     color:#D2AE6D;
+    padding:0px 8px;
 }
 
 ul {
@@ -33,8 +34,12 @@ p {
 
 /*==========INTERFACE==========*/
 
-body{background: linear-gradient(to top, #412c0f, #FADCAD);
-    margin: 20px;background-image: url(img/bg.jpg);
+body{
+    background: linear-gradient(to top, #412c0f, #FADCAD);
+    position: relative;
+    width: 92%;
+    left:4%;
+    background-image: url(img/bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
@@ -62,26 +67,29 @@ h3 {
 }
 
 /*==========MENU==========*/
-.menu {
-    margin-top: -3%;
+.navegacao{
+height:45px;
+position: fixed;
+width: 92%;
+left:4%;
+margin: 0px 0px 20px 0px;
+
+
+background: linear-gradient(to top, rgb(46, 9, 8), #7a3920);
+ 
 }
+
+#menu {
+    
+    padding:10px 40px;
+    margin-left:15px;
+}
+/*========FIM-MENU========*/
 
 .linkd {
-    color:#000;
-} /*Link das migalhas*/
-
-.menu h1 {
-    display: none;
+   color:#000;
 }
-
-.ulmenu {
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to top, #7E2E2F, #A66462);
-    align-items:center;
-    padding: 2% 5% 0% 5%;
-    font-size: 16px;
-}/*aqui eu posiciono as li no browser*/ /*MODELO DE MENU MAIS SIMPLES E ATUAL QUE VI 2019*/
+ /*Link das migalhas*/
 
 /*Definir mesma altura e largura para os elementos*/
 
