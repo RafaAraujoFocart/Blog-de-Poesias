@@ -45,6 +45,8 @@ body{
     background-color: #000;
 }
 
+
+
 div#interface {
     background-color: #fff;
     padding: 0px;
@@ -64,6 +66,7 @@ h3 {
     font-size: 150%;
     text-align: right;
     text-decoration: underline;
+    margin-top:8%;
 }
 
 /*==========MENU==========*/
@@ -89,15 +92,6 @@ background: linear-gradient(to top, rgb(46, 9, 8), #7a3920);
 .linkd {
    color:#000;
 }
- /*Link das migalhas*/
-
-/*Definir mesma altura e largura para os elementos*/
-
-.migalhas {display:none;}
-.migalhas_e {position: relative; font-size:100%; top: 2px; font-weight: 900; background: rgba(255, 255, 255, 0.4); }
-.migalhas_l {position: relative; font-size:100%; top: 2px; font-weight: 900; background: rgba(255, 255, 255, 0.4); }
-.migalhas_d {position: relative; font-size:100%; top: 2px; font-weight: 900; background: rgba(255, 255, 255, 0.4); }
-.migalhas_s {position: relative; font-size:100%; top: 2px; font-weight: 900; background: rgba(255, 255, 255, 0.4); }
 
 /*========FIM_MENU========*/
 
